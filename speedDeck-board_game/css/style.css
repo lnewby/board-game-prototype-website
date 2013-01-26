@@ -1,0 +1,94 @@
+/* Cascading Style Sheet for Lance's ITIS 2300-091 exercises */																												/* (c) 2009 Lance Newby */
+
+/* reset ALL - set element to a default setting
+================================================================== */
+html, body, div, span, p, blockquote, pre, a, abbr,
+acronym, address, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small,
+strike, strong, sub, sup, tt, var, b, u, i, dl, dt, dd,
+fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td{
+  background:transparent; border:0; font-size:100%;
+  margin:0; padding:0; vertical-align:baseline;
+}
+body{ background:#fff; line-height:1; min-width:1000px; }
+/*ul{ list-style:none; margin-bottom:14px; }*/
+blockquote{ quotes:none; }
+blockquote:before, blockquote:after{ content:''; content:none;}
+ins{ text-decoration:underline; }
+del{ text-decoration:line-through; }
+table{ border-collapse:collapse; border-spacing:0px; }
+/* end reset ALL
+================================================================== */
+
+body{
+  background-color:rgb(0,34,46);
+  border:none;
+  margin:0px; 
+  padding:0px;
+  font-family: Century Gothic, Verdana, Arial, Helvetica, sans-serif;
+  font-size:75%;
+}
+a:link{ color: #FFF; }
+a:hover{ color:#00F; text-decoration:none; }
+a:visited{ color: #FFF; }
+a:acive{ color: #FFF; }
+p{
+  clear:both;
+  color:#fff; 
+  font:normal 12px/21px Verdana,sans-serif;
+  margin-bottom:14px;
+  line-height:2em; 
+}
+li{ margin-bottom:7px; }
+
+/* ID selector styles */
+#container{
+  border-right:1px solid #ddd;
+  height:auto;
+  margin: 50px 0 0 45px;
+  _margin: 50px 0 0 45px;
+  padding: 0 55px 0 0;
+  width:700px;
+}
+#main{
+  margin-top:190px;
+}
+#page_header{
+  background-color:#001922;
+  height:57px;
+  padding-left:45px;
+  width:100%;
+  position:fixed;
+  top:0px;
+  left:0px;
+}
+#page_footer{ 
+  clear:both;
+  color:#999;
+  background: #00334A;
+  border-top:5px solid #fff; 
+  line-height:55px; 
+  margin-bottom:0px;
+  padding-left:40px;  
+}
+
+#page_logo{
+	height:71px;
+	left:auto;
+	top:10px;
+	width:351px;
+	position:absolute;
+}
+#page_title_shadow{
+  color:#000;
+  font-size:36px;
+  font-weight:bold;
+  height:45px;
+  left:1px;
+  top:6px;
+  width:760px;
+  position:relative;
+}
+#page_title a:link{ color:#FFF; text-decoration:none; }
+#page_title a:hover{ color: #CCCCCC; text-decoration:none; }
+#page_title a:visited{ color:#FFF; text-decoration:none; }
+#page_sub_title{ position:relative; }
